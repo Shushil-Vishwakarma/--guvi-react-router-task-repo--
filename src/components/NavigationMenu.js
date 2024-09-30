@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import style from './Navigation_Menu.module.css'
+import style from './NavigationMenu.module.css'
 
-export function Navigation_Menu() {
+export function NavigationMenu() {
      return (
           <nav className={style.navigation_menu}>
                <ul>

@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navigation_Menu } from './components/Navigation_Menu';
+import { NavigationMenu } from './components/NavigationMenu';
 import AllCourses from './pages/AllCourses';
 import FullStack from './pages/FullStack';
 import DataScience from './pages/DataScience';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation_Menu />
+        <NavigationMenu />
         <Routes>
           <Route path="/" element={<AllCourses />} />
           <Route path="/fullstack" element={<FullStack />} />
